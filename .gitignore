@@ -7,8 +7,23 @@
 # The directory Mix downloads your dependencies sources to.
 /deps/
 
+<<<<<<< HEAD
 # Where third-party dependencies like ExDoc output generated docs.
 /doc/
+=======
+.tool-versions
+
+# Various Windows ignoramuses.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+>>>>>>> 71184e7d (add electron-reloader + update ling-staged pre-hook + create custom)
 
 # Ignore .fetch files in case you like to edit your project deps locally.
 /.fetch

@@ -57,7 +57,7 @@
 		"test:unit": "NODE_ENV=test jest --selectProjects unit"
 	},
 	"lint-staged": {
-		"*": "prettier --write",
+		"*.{js,css,md,json}": "prettier --write",
 		"*.js": "eslint --fix",
 		"*.css": "stylelint --fix"
 	},
@@ -85,6 +85,7 @@
 	"devDependencies": {
 		"@stylistic/eslint-plugin": "^4.2.0",
 		"cspell": "^8.18.1",
+		"electron-reloader": "^1.2.3",
 		"eslint-plugin-import": "^2.31.0",
 		"eslint-plugin-jest": "^28.11.0",
 		"eslint-plugin-jsdoc": "^50.6.9",

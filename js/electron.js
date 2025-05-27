@@ -1,5 +1,12 @@
 "use strict";
 
+// frontend/js/main.js
+try {
+	require("electron-reloader")(module);
+} catch (err) {
+	console.warn("Electron reloader not available:", err);
+}
+
 const electron = require("electron");
 const core = require("./app");
 const Log = require("./logger");
